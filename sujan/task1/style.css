@@ -1,0 +1,68 @@
+body{
+    font-family: raleway;
+    text-align: center;
+}
+
+#container{
+    margin: 20px;
+    border-style: solid ;
+    border-radius: 5px;
+    border-color: #07be44;
+    background-color: #FFFFFF;
+    width: 500px;
+    min-height: 550px;
+}
+
+h1{
+    color: #000000;
+    margin: 10px;
+    padding: 5px;
+}
+
+#divAdd{
+    margin: 20px;
+}
+
+#myInput{
+    height: 30px;
+    width: 200px;
+}
+
+#buttonAdd{
+    height: 30px;
+    width: 80px;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+#buttonAdd:hover{
+    color: #FFFFFF ;
+    background-color: #000000;
+}
+
+#divList{
+    margin: 20px;
+}
+
+li{
+    size: 35px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f7f0e8;
+    list-style: none;
+    margin: 0px;
+    font-size: 18px;
+    text-align: left;
+    
+}
+
+li:hover{
+    background-color: #9eeec6;
+    color: #000000;
+}
+
+.checked{
+    text-decoration: line-through;
+}
